@@ -1,0 +1,10 @@
+.view {
+  font-size: 30px;
+  padding-top: 8px;
+  float: right;
+}
+
+.fa-th {
+  color: rgb(220,35,48);
+  padding-right: 5px;
+}

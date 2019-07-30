@@ -1,0 +1,17 @@
+.product {
+  margin-bottom: 20px;
+}
+.product-img{
+  float: left;
+  padding-right: 10px;
+}
+
+.category {
+  color: grey;
+}
+
+.price {
+  font-weight: 700;
+  font-size: 18px;
+}
+

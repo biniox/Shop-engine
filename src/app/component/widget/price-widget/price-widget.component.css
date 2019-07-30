@@ -1,0 +1,33 @@
+.custom-range::-webkit-slider-thumb {
+  background: red;
+}
+
+input, button{
+  border: none;
+  background-color: white;
+}
+
+
+.price {
+  border: 2px rgb(217,217,217) solid;
+  padding-left: 20px;
+  padding-right: 15px;
+  border-radius: 30px;
+  width: 70px;
+  height: 35px;
+  margin-top: 10px;
+}
+.button {
+  padding-left: 20px;
+  padding-right: 15px;
+  border-radius: 30px;
+  margin-top: 20px;
+  background-color: rgb(220,35,48);
+  color: white;
+  padding: 8px;
+  width: 80px;
+  float: right;
+}
+.clear {
+  clear: both;
+}

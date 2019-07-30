@@ -1,0 +1,22 @@
+input, select, button {
+  border: none;
+  background-color: white;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;       /* remove default arrow */
+
+}
+
+.search-input {
+  border: 2px rgb(217,217,217) solid;
+  padding-left: 20px;
+  padding-right: 15px;
+  border-radius: 30px;
+}
+button {
+  border-left: 1px rgb(217,217,217) solid;
+  padding: 13px 13px 13px 23px;
+}

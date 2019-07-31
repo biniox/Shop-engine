@@ -1,0 +1,12 @@
+h4 {
+  font-weight: 700;
+}
+
+p {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.fas, .far {
+  padding-right: 5px;
+}

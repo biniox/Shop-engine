@@ -1,0 +1,22 @@
+.container {
+  background-color: #fafafa;
+}
+
+div {
+  padding: 10px;
+}
+
+li {
+  list-style: none;
+  padding: 5px;
+}
+
+button {
+  padding: 14px 0px 14px 0px;
+  border-radius: 30px;
+  width: 240px;
+}
+
+h5 {
+  font-weight: 700;
+}

@@ -1,0 +1,11 @@
+.price {
+  font-weight: 900;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 20px;
+}
+
+.left {
+  color: grey;
+  padding-left: 20px;
+}

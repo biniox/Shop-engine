@@ -1,0 +1,42 @@
+div {
+  padding-top: 10px;
+  padding-top: 10px;
+}
+
+.subscribe-footer {
+  color: grey;
+  font-size: 16px;
+}
+
+.left {
+  float: left;
+  padding-left: 15px;
+}
+.fa-headphones-alt {
+font-size: 50px;
+}
+.txt {
+padding-top: 5px;
+}
+
+.newsletter {
+  color: black;
+}
+
+h4 {
+font-weight: 700;
+}
+
+button {
+  padding: 10px;
+  border-radius: 0px 30px 30px 0;
+  color: white;
+  font-size: 10px;
+  font-size: 15px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 30px 0 0 30px;
+  font-size: 15px;
+}

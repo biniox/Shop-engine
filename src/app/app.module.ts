@@ -22,6 +22,19 @@ import { ShowShopPageComponent } from './component/shop-page/show-shop-page/show
 import { BodyShopPageComponent } from './component/shop-page/body-shop-page/body-shop-page.component';
 import { FooterComponent } from './component/footer/footer/footer.component';
 import { PaginationShopPageComponent } from './component/shop-page/pagination-shop-page/pagination-shop-page.component';
+import { SubscribeFooterComponent } from './component/footer/subscribe-footer/subscribe-footer.component';
+import { MenuFooterComponent } from './component/footer/menu-footer/menu-footer.component';
+import { InfoFooterComponent } from './component/footer/info-footer/info-footer.component';
+import { ProductPageComponent } from './page/product-page/product-page.component';
+import { ImageProductPageComponent } from './component/product-page/image-product-page/image-product-page.component';
+import { ShortDescriptionProductPageComponent } from './component/product-page/short-description-product-page/short-description-product-page.component';
+import { SummaryProductPageComponent } from './component/product-page/summary-product-page/summary-product-page.component';
+import { DescriptionProductPageComponent } from './component/product-page/description-product-page/description-product-page.component';
+import { PopularBigWidgetComponent } from './component/widget/popular-big-widget/popular-big-widget.component';
+import { CartPageComponent } from './page/cart-page/cart-page.component';
+import { ListCartPageComponent } from './component/cart-page/list-cart-page/list-cart-page.component';
+import { SubmitCartPageComponent } from './component/cart-page/submit-cart-page/submit-cart-page.component';
+import { CheckoutPageComponent } from './page/checkout-page/checkout-page.component';
 
 @NgModule({
   declarations: [
@@ -41,14 +54,25 @@ import { PaginationShopPageComponent } from './component/shop-page/pagination-sh
     ShowShopPageComponent,
     BodyShopPageComponent,
     FooterComponent,
-    PaginationShopPageComponent
+    PaginationShopPageComponent,
+    SubscribeFooterComponent,
+    MenuFooterComponent,
+    InfoFooterComponent,
+    ProductPageComponent,
+    ImageProductPageComponent,
+    ShortDescriptionProductPageComponent,
+    SummaryProductPageComponent,
+    DescriptionProductPageComponent,
+    PopularBigWidgetComponent,
+    CartPageComponent,
+    ListCartPageComponent,
+    SubmitCartPageComponent,
+    CheckoutPageComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule,
-    // MatButtonModule,
-    // MatCheckboxModule
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

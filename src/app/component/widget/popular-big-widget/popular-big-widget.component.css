@@ -1,0 +1,28 @@
+.item {
+    margin-right: 0px;
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  .item:hover {
+    border: 1px grey solid;
+    cursor: pointer;
+  }
+  
+  img {
+    width: 250px;
+  }
+  
+  .category {
+    color: grey;
+  }
+  
+  .name {
+    font-size: 20px;
+  }
+  
+  .price {
+    font-weight: 700;
+    font-size: 25px;
+  }
+  

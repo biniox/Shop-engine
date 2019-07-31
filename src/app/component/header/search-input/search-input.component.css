@@ -19,4 +19,5 @@ select {
 button {
   border-left: 1px rgb(217,217,217) solid;
   padding: 13px 13px 13px 23px;
+  color: grey;
 }

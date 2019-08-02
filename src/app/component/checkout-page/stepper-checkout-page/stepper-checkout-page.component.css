@@ -1,0 +1,57 @@
+.stepper {
+  margin-top: 40px;
+}
+
+ul {
+  list-style: none;
+  counter-reset: step;
+}
+
+li {
+  float: left;;
+  width: 25%;
+  text-align: center;
+  color: rgb(190, 181, 181);
+}
+li::before {
+  counter-increment: step;
+  content: counter(step);
+  border: 1px grey solid;
+  background-color: grey;
+  color: white;
+  width: 100px;
+  margin: 0 auto;
+  border-radius: 15px;
+  display: block;
+  margin-bottom: 10px;
+  cursor: pointer;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.active {
+  font-weight: 700;
+}
+.active::before {
+  border: 1px rgb(220,35,48) solid;
+  background-color: rgb(220,35,48);
+}
+
+li:first-child::after {
+  content: none;
+}
+
+ li:after {
+  content: "";
+  position: absolute;
+  width:25%;
+  height:3px;
+  background-color: #ddd;
+ margin-left: -25%;
+  top: 70px;
+  z-index: -1;
+  }
+
+   li.active + li:after {
+    background-color: rgb(220,35,48) !important;
+  }

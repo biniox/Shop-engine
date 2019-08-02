@@ -1,8 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-// import {MatButtonModule, MatCheckboxModule} from '@angular/material';
-// import 'hammerjs';
+// import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+// import {MatButtonModule} from '@angular/material/button';
+// import {MatCheckboxModule} from '@angular/material/checkbox';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -35,6 +35,9 @@ import { CartPageComponent } from './page/cart-page/cart-page.component';
 import { ListCartPageComponent } from './component/cart-page/list-cart-page/list-cart-page.component';
 import { SubmitCartPageComponent } from './component/cart-page/submit-cart-page/submit-cart-page.component';
 import { CheckoutPageComponent } from './page/checkout-page/checkout-page.component';
+import { StepperCheckoutPageComponent } from './component/checkout-page/stepper-checkout-page/stepper-checkout-page.component';
+import { PersonalCheckoutPageComponent } from './component/checkout-page/personal-checkout-page/personal-checkout-page.component';
+import { LoginCheckoutPageComponent } from './component/checkout-page/login-checkout-page/login-checkout-page.component';
 
 @NgModule({
   declarations: [
@@ -67,12 +70,17 @@ import { CheckoutPageComponent } from './page/checkout-page/checkout-page.compon
     CartPageComponent,
     ListCartPageComponent,
     SubmitCartPageComponent,
-    CheckoutPageComponent
+    CheckoutPageComponent,
+    StepperCheckoutPageComponent,
+    PersonalCheckoutPageComponent,
+    LoginCheckoutPageComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    // BrowserAnimationsModule,
+    // MatButtonModule,
+    // MatCheckboxModule
   ],
   providers: [],
   bootstrap: [AppComponent]

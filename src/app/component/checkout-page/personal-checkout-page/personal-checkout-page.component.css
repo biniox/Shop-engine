@@ -1,0 +1,17 @@
+.form_input input {
+  padding: 15px;
+  border: 1px grey solid;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.double input {
+width: 49%;
+padding: 15px;
+border: 1px grey solid;
+margin-bottom: 10px;
+}
+
+.right {
+  float: right;
+}

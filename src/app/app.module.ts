@@ -38,6 +38,9 @@ import { CheckoutPageComponent } from './page/checkout-page/checkout-page.compon
 import { StepperCheckoutPageComponent } from './component/checkout-page/stepper-checkout-page/stepper-checkout-page.component';
 import { PersonalCheckoutPageComponent } from './component/checkout-page/personal-checkout-page/personal-checkout-page.component';
 import { LoginCheckoutPageComponent } from './component/checkout-page/login-checkout-page/login-checkout-page.component';
+import { DeliveryCheckoutPageComponent } from './component/checkout-page/delivery-checkout-page/delivery-checkout-page.component';
+import { SummaryCheckoutPageComponent } from './component/checkout-page/summary-checkout-page/summary-checkout-page.component';
+import { PaymentCheckoutPageComponent } from './component/checkout-page/payment-checkout-page/payment-checkout-page.component';
 
 @NgModule({
   declarations: [
@@ -73,7 +76,10 @@ import { LoginCheckoutPageComponent } from './component/checkout-page/login-chec
     CheckoutPageComponent,
     StepperCheckoutPageComponent,
     PersonalCheckoutPageComponent,
-    LoginCheckoutPageComponent
+    LoginCheckoutPageComponent,
+    DeliveryCheckoutPageComponent,
+    SummaryCheckoutPageComponent,
+    PaymentCheckoutPageComponent
   ],
   imports: [
     BrowserModule,
